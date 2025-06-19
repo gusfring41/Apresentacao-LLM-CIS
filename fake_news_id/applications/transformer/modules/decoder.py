@@ -89,7 +89,7 @@ class Decoder(nn.Module):
         ff_hid_dim: int,
         max_length: int,
         dropout: float,
-        device: torch.device,
+        device: str,
     ) -> None:
         '''
         Class initializer.

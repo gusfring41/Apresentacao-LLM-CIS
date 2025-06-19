@@ -20,7 +20,7 @@ class EncoderClassifier(nn.Module):
         max_length: int,
         pad_idx: int,
         dropout: float,
-        device: torch.device,
+        device: str,
     ) -> None:
         '''
         Class initializer.
