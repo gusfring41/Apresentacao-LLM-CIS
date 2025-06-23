@@ -46,7 +46,7 @@ class MultiHeadAttention(nn.Module):
         q: torch.Tensor,
         k: torch.Tensor,
         v: torch.Tensor,
-        mask: torch.Tensor = None,
+        mask: torch.Tensor | None = None,
     ) -> torch.Tensor:
         '''
         Forward pass through architecture.
